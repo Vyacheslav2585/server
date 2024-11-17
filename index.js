@@ -10,7 +10,7 @@ app.use(cors())
 
 const socket =SocketIo(http,{
     cors:{
-        origit:"https://localhost:5173"
+        origin:"*"
     }
 })
 let arr = []
